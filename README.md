@@ -1,6 +1,10 @@
 
 # 🎧 MONOCHROME FLAC DOWNLOADER
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 <p align="center">  
 <img src="assets/demo.gif" width="800"/>  
 </p>
