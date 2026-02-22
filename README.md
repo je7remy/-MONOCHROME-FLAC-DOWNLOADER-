@@ -1,6 +1,10 @@
 
 # 🎧 MONOCHROME FLAC DOWNLOADER
 
+<p align="center">  
+<img src="assets/demo.gif" width="800"/>  
+</p>
+
 > Descarga automática de música en formato **FLAC lossless** a partir de una lista de títulos en JSON.
 
 ---

@@ -5,15 +5,16 @@
 ║  Descarga automática de archivos FLAC desde monochrome.tf        ║
 ║  usando Playwright para automatizar el navegador.                ║
 ║                                                                  ║
-║  Requisitos:                                                      ║
-║    pip install playwright httpx                                   ║
-║    playwright install chromium                                    ║
+║  Requisitos:                                                     ║
+║    pip install playwright httpx                                  ║
+║    playwright install chromium                                   ║
 ║                                                                  ║
-║  Uso:                                                             ║
-║    1. Crea un archivo listado.json con los títulos a buscar       ║
-║    2. Ejecuta: python musicflac.py                                ║
-║    3. Los archivos se guardan en la carpeta descargas_flac/       ║
+║  Uso:                                                            ║
+║    1. Crea un archivo listado.json con los títulos a buscar      ║
+║    2. Ejecuta: python musicflac.py                               ║
+║    3. Los archivos se guardan en la carpeta descargas_flac/      ║
 ╚══════════════════════════════════════════════════════════════════╝
+
 """
 
 import asyncio   # Para ejecutar código asíncrono (async/await)
@@ -282,4 +283,3 @@ async def main():
 if __name__ == "__main__":
     # asyncio.run() ejecuta la función async main() en el event loop
     asyncio.run(main())
-    
